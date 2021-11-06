@@ -1,12 +1,12 @@
 import win32api, win32con, keyboard, time, math, random
 
 print('Press Q to quit')
-rottype = input('Enter rotation type (available types: rot, sin, tan, sinabs, rand): ')
-delay = (float)(input('Enter delay before spinning: '))
+rottype = input('Select rotation type (available types: rot, sin, tan, sinabs, rand): ')
+delay = (float)(input('Enter starting delay: '))
 
 if not rottype == 'rand':
     multiplier = (float)(input('Set speed: '))
-    print(f'You have {delay} seconds... Wheeee!')
+    print(f'You have {delay} seconds to alt-tab... Wheeee!')
     time.sleep(delay)
 
 if rottype == 'rot':
@@ -31,7 +31,7 @@ elif rottype == 'sinabs':
         time.sleep(0.01)
 elif rottype == 'rand':
     maxval = (int)(input('Enter maximum possible random value: '))
-    print(f'You have {delay} second... Wheeee!')
+    print(f'You have {delay} seconds to alt-tab... Wheeee!')
     time.sleep(delay)
     while not keyboard.is_pressed('q'):
         mouseX = (int)(random.randint(0,maxval))
