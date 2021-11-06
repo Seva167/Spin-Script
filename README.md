@@ -1,13 +1,18 @@
+# Disclaimer
+**I am not responsible for any damage for your game account.**
+
+**This is just for fun script and people can think that you are a cheater.**
+
+**Anticheats can possibly detect unusual mouse movement and ban you.**
+
+**So, don't overuse.**
+
 # Spin Script
-Tired of playing in game? Just spin!
+Tired of doing normal things? Just spin!
 
 <img src="https://c.tenor.com/TGbmy23IhPUAAAAM/tf2-heavy.gif"/>
 
-Script works by virtually moving your mouse.
-
-Don't spin too fast or people can think that you are a bot.
-
-**And, use at your own risk because you can't know what anticheats can detect as a cheat.**
+This script works by virtually moving your mouse.
 
 ## Instructions
 
