@@ -27,4 +27,6 @@ This script works by virtually moving your mouse.
 
 3. Set the speed of your rotation.
 
-And press Q to quit.
+4. Press P to pause spin (in "rand" mode difficult to pause).
+
+And press Q to quit (in "rand" mode hold Q until it closes).
