@@ -36,7 +36,7 @@ if rottype == 'rot':
 
         if keyboard.is_pressed('-'):
             multiplier -= 0.1
-        if keyboard.is_pressed('='):
+        if keyboard.is_pressed('=') or keyboard.is_pressed('+'):
             multiplier += 0.1
 elif rottype == 'sin':
     while not keyboard.is_pressed(quitBind):
@@ -50,7 +50,7 @@ elif rottype == 'sin':
         
         if keyboard.is_pressed('-'):
             multiplier -= 0.1
-        if keyboard.is_pressed('='):
+        if keyboard.is_pressed('=') or keyboard.is_pressed('+'):
             multiplier += 0.1
 elif rottype == 'tan':
     while not keyboard.is_pressed(quitBind):
@@ -64,7 +64,7 @@ elif rottype == 'tan':
         
         if keyboard.is_pressed('-'):
             multiplier -= 0.1
-        if keyboard.is_pressed('='):
+        if keyboard.is_pressed('=') or keyboard.is_pressed('+'):
             multiplier += 0.1
 elif rottype == 'sinabs':
     while not keyboard.is_pressed(quitBind):
@@ -78,7 +78,7 @@ elif rottype == 'sinabs':
 
         if keyboard.is_pressed('-'):
             multiplier -= 0.1
-        if keyboard.is_pressed('='):
+        if keyboard.is_pressed('=') or keyboard.is_pressed('+'):
             multiplier += 0.1
 elif rottype == 'rand':
     maxval = (int)(input('Enter maximum possible random value: '))
