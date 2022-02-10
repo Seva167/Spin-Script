@@ -13,6 +13,7 @@ Tired of doing normal things? Just spin!
 <img src="https://c.tenor.com/TGbmy23IhPUAAAAM/tf2-heavy.gif"/>
 
 This script works by virtually moving your mouse.
+**Fork by dinikai:** *bind quit and pause buttons (useful for Counter-Strike) / change speed with '-' and '+' keys*
 
 ## Instructions
 
