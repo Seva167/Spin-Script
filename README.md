@@ -12,8 +12,8 @@ Tired of doing normal things? Just spin!
 
 <img src="https://c.tenor.com/TGbmy23IhPUAAAAM/tf2-heavy.gif"/>
 
-This script works by virtually moving your mouse.
-**Fork by dinikai:** *bind quit and pause buttons (useful for Counter-Strike) / change speed with '-' and '+' keys*
+This script works by virtually moving your mouse.<br>
+**Fork by dinikai:** bind quit and pause buttons (useful for Counter-Strike) / change speed with '-' and '+' keys
 
 ## Instructions
 
@@ -29,5 +29,7 @@ This script works by virtually moving your mouse.
 3. Set the speed of your rotation.
 
 4. Press P to pause spin (in "rand" mode difficult to pause).
+
+5. Press '+' or '-" to change rotation speed
 
 And press Q to quit (in "rand" mode hold Q until it closes).
